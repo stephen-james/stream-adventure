@@ -56,5 +56,5 @@ Also you can use the `pipe` method, that we'd learned before.
 
 ### Challenge
 
-Implement a writable stream that writes in console `writing: ` + the given chunk
-And pipe it to `process.stdin`
+Implement a writable stream that logs to the console `writing: ` + the given chunk.
+Pipe `process.stdin` to the writable stream.
